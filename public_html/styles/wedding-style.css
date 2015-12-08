@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding:0;
+    background: #ffffff;
+    font-family: sans-serif;
+    
+}
+
+h1, h2{
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 45px 0 45px;
+
+}
+
+h1{
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    padding: 10px;
+}
+
+p {
+    margin-left: 105px;
+    margin-right: 105px;
+    font-size: 13px;
+}
+
+#header {
+    margin-bottom: 25px;
+}
+
+#container {
+    width: 640px;
+    margin: auto;
+}
+
+.otsikko{
+        margin-left: 45px;
+        margin-right: 45px;
+        background-image: url(../img/p.jpg);    
+}
+
+.rose{
+    float:left;
+    padding: 5px 5px 5px 10px;
+}
+.floatImgLeft {
+    float: left;
+    margin-right: 10px;
+}
+
+.floatRight {
+    float: right;
+    margin-left: 15px;
+}
