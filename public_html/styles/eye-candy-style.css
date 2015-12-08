@@ -120,6 +120,12 @@ a:hover {
 /*  Animating list items selected with animated class separately
     neat, huh? The nth-child-selectors turned out to be pretty
     handy. I wonder if even LESS would have been neater...?
+
+    I used https://coveloping.com/tools/css-animation-generator as
+    a tool for creating the animation, but added the child selectors
+    (which differ somewhat) and combined them with the apparatus
+    that moves the elements.
+
 */
 .animated:first-child {
     animation-duration: 4.2s;
