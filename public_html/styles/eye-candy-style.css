@@ -28,7 +28,7 @@
     height: 85px;
     background: url("../images/_upperCloud.png") repeat-x;
 /*    -webkit-animation: scrollApparatus 20s linear infinite; */
-    animation: scrollApparatus 20s linear infinite;
+    animation: scrollApparatus 40s linear infinite;
 }
 
 /* Bottom cloud-layer */
@@ -39,7 +39,7 @@
     height: 85px;
     background: url("../images/_bottomCloud.png") repeat-x;
 /*    -webkit-animation: scrollApparatus 30s linear infinite; */
-    animation: scrollApparatus 30s linear infinite;
+    animation: scrollApparatus 60s linear infinite;
 }
 
 /* Bush-layer */
@@ -78,7 +78,7 @@
 
 @keyframes scrollApparatus {
     from {background-position: 0 0;}
-    to {background-position: -800px 0;}
+    to {background-position: -1600px 0;}
 }
 
 /*  Div for links to other assignments */
@@ -109,7 +109,6 @@ a:hover {
     color: #1a96ff;
 }
 
-
 #footer {
     position: absolute;
     top: 482px;
@@ -123,8 +122,8 @@ a:hover {
 
     I used https://coveloping.com/tools/css-animation-generator as
     a tool for creating the animation, but added the child selectors
-    (which differ somewhat) and combined them with the apparatus
-    that moves the elements.
+    (which differ somewhat) and combined them with bounce that moves
+    the elements.
 
 */
 .animated:first-child {
