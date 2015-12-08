@@ -9,7 +9,7 @@
 #scroller {
     background: url("../images/background-gradient.png") repeat-x;
     /*  linear-gradient(deepskyblue, white); -- this ruins the scrolling, takes too much resources to do it realtime
-        and thus it is better to use a plain old bitmap to render the gradience in a more efficient manner.
+        and thus it is better to use a plain old bitmap to render the gradient in a more efficient manner.
     */
     width: 800px;
     height: 540px;
