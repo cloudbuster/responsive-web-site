@@ -45,7 +45,7 @@ p {
 .otsikko{
         margin-left: 45px;
         margin-right: 45px;
-        background-image: url(../img/p.jpg);    
+        background-image: url("../images/p.jpg");
 }
 
 .rose{
