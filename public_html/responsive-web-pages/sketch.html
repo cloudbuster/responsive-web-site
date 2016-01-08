@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tuijan Sogetsu Ikebana</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+
+    <!-- container-fluid should expand to available width -->
+    <!-- container is fixed width for screen sizes, media queries are: (xs, sm (750), md(992), lg(1200)) -->
+    <div class="container-fluid" role="main">
+
+        <h1>Tuijan Sogetsu Ikebana</h1>
+
+        <!-- rows contain a set of columns -->
+        <!-- there are 12 columns available in bootstrap, but there can be overflow -->
+
+        <!-- columns are categorized as:
+        the lg (large, breakpoint >= 1200),
+        md (medium, breakpoint >=992),
+        sm (small, breakpoint >=750),
+        xs (extra small, no stacking!) -->
+
+        <div class="row">
+            <div class="col-lg-3 blue">The first lg</div>
+            <div class="col-lg-3 red">The second lg</div>
+            <div class="col-lg-3 blue">The third lg</div> <!-- 3+3+3 = 12 columns! -->
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 red">The first md</div>
+            <div class="col-md-3 blue">The second md</div>
+            <div class="col-md-3 red">The third md</div> <!-- 3+3+3 = 12 columns! -->
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 blue">The first sm</div>
+            <div class="col-sm-3 red">The second sm</div>
+            <div class="col-sm-3 blue">The third sm</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-3 red">The first xs</div>
+            <div class="col-xs-3 blue">The second xs</div>
+            <div class="col-xs-3 red">The third xs</div>
+        </div>
+
+
+    </div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
